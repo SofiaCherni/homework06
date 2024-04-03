@@ -204,5 +204,17 @@
             <i class="fas fa-chevron-up"></i>
         </a>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const backToTop = document.getElementById("back-to-top");
+            window.addEventListener("scroll", function() {
+                if (window.pageYOffset > 200) {
+                    backToTop.style.display = "block";
+                } else {
+                    backToTop.style.display = "none";
+                }
+            });
+        });
+    </script>
 </body>
 </html>
