@@ -33,7 +33,136 @@
             <p class="header__description"> Допоможемо підібрати найкраший тур для вашого відпочинку</p>
             <p class="header__submit"> <a href="#" class="submit submit-header">Обрати подорож</a></p>
         </header>
-        <main class="main"></main>
+        <main class="main">
+            <section class="search-form">
+                <form method="POST" action="https://fom.in.ua/echo">
+                    <div class="searcform__row">
+                        <div class="searcform__item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" name="tour" placeholder="Оберіть тур">
+                        </div>
+                        <div class="searcform__item">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <select name="mounth">
+                                <option value=" ">Оберіть місяц</option>
+                                <option value="01">Січень</option>
+                                <option value="02">Лютий</option>
+                                <option value="03">Березень</option>
+                                <option value="04">Квітень</option>
+                                <option value="05">Травень</option>
+                                <option value="06">Червень</option>
+                                <option value="07">Липень</option>
+                                <option value="08">Серпень</option>
+                                <option value="09">Вересень</option>
+                                <option value="10">Жовтень</option>
+                                <option value="11">Листопад</option>
+                                <option value="12">Грудень</option>
+                            </select>
+                        </div>
+                        <div class="searcform__item--btn">
+                            <input type="submit" name="submit-search" class="submit submit-search" value="Пошук туру">
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <section class="Popular-destinations">
+                <article class="article">
+                    <h2 id="popular-destinations" class="article__heading">Популярні напрямки</h2>
+                    <p class="article__description">Краші туристичні напрямки країн "Скандинавії"</p>
+                    <div class="destinations-wrap">
+                        <div class="destinations__item">
+                            <a href="pages/norway.html"><img src="images/Norway.jpg" alt="mountain canyon"></a>
+                            <h3 class="destinations__heading">NORWAY</h3>
+                        </div>
+                        <div class="destinations__item">
+                            <a href="#"><img src="images/IceLand.jpg" alt="mountains and black beach"></a>
+                            <h3 class="destinations__heading">ICELAND</h3>
+                        </div>
+                        <div class="destinations__item">
+                            <a href="#"><img src="images/Finland.jpg" alt="houses in the winter forest"></a>
+                            <h3 class="destinations__heading">FINLAND</h3>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="tourist-activities">
+                <article class="article">
+                    <h2 class="article__heading">Найкращі туристичні заходи</h2>
+                    <p class="article__description">Оберайте для себе як провести ваш відпочинок: катання налижах, відвідування старовиних місць, насолоджуйтесь спогляданням дикої природои та багато іншого.</p>
+                    <div class="activities-wrap">
+                        <div class="activities-wrap__item">
+                            <a href="#"><img src="images/The_lake.jpg" alt="mountains and man"></a>
+                            <h3 class="activities-wrap__heading">Озеро Веттерн</h3>
+                        </div>
+                        <div class="activities-wrap__item">
+                            <a href="#"><img src="images/hot_springs.jpg" alt="waterfall and girl"></a>
+                            <h3 class="activities-wrap__heading" >Гарячі джерела</h3>
+                        </div>
+                        <div class="activities-wrap__item">
+                            <a href="#"><img src="images/Kayak.jpg" alt="girl in a kayak"></a>
+                            <h3 class="activities-wrap__heading" >Подорож фьордами</h3>
+                        </div>
+                        <div class="activities-wrap__item">
+                            <a href="#"><img src="images/Camping.jpg" alt="people on ski slopes in the mountains"></a>
+                            <h3 class="activities-wrap__heading" >Інша Ісландія</h3>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="blog">
+                <article class="article">
+                    <h2 class="article__heading">Цікаві статті</h2>
+                    <div class="blog-wrap">
+                        <div class="blog-wrap__item">
+                            <div class="blog-wrap__picture">
+                                <a href="#"><img src="images/blog-temth01.jpg" alt="man skiing in the winter forest"></a>
+                            </div>
+                            <div class="blog-wrap__text-info">
+                                <p class="blog-wrap__data">1 квітень 2024</p>
+                                <h3 class="blog-wrap__heading">Магія в льодяних печерах Ісландії</h3>
+                                <p>Крижаний тунель природного походження. Річка протікає через крижану печеру в Ісландії. Для огляду печери вам нададуть налобний ліхтар та льодоходи.</p>
+                                <a class="blog-wrap__link" href="#">Докладніше >></a>
+                            </div>
+                        </div>
+                        <div class="blog-wrap__item">
+                            <div class="blog-wrap__picture">
+                                <a href="#"><img src="images/blog-temth02.jpg" alt="man skiing in the winter forest"></a>
+                            </div>
+                            <div class="blog-wrap__text-info">
+                                <p class="blog-wrap__data">1 квітень 2024</p>
+                                <h3 class="blog-wrap__heading">Поход по Лапландии</h3>
+                                <p>Запрошуємо до справжнього пішого походу у скандинавському заполяр'ї. Ми піднімемося на найвищу та най чарівнішу гору Швеції - Кебнекайсе.</p>
+                                <a class="blog-wrap__link" href="#">Докладніше >></a>
+                            </div>
+                        </div>
+                        <div class="blog-wrap__item">
+                            <div class="blog-wrap__picture">
+                                <a href="#"><img src="images/blog-temth03.jpg" alt="man skiing in the winter forest"></a>
+                            </div>
+                            <div class="blog-wrap__text-info">
+                                <p class="blog-wrap__data">1 квітень 2024</p>
+                                <h3 class="blog-wrap__heading">Каячні круїзи Норвегії</h3>
+                                <p>Норвезькі фіорди - це, без перебільшення, один із найпопулярніших круїзних напрямків. Рік у рік кришталеві води та пейзажі Норвегії манять своєю красою все більше охочих.</p>
+                                <a class="blog-wrap__link" href="#">Докладніше >></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="sale">
+                <article class="article-sale">
+                    <h2 class="article-sale__heading">Отримуй знижку 25% на тур!</h2>
+                    <p class="article-sale__description">Підпишись зараз, щоб отримати гарячі спеціальні пропрозиції та інформацію про краші тури, новини та акції. Экономьте на путешествиях благодаря нашим акционным предложениям. Бесплатная онлайн консультирование по выбору туров и бронированию.
+                    </p>
+                    <form method="POST" action="https://fom.in.ua/echo">
+                        <div class="sale-wrap">
+                            <input type="email" name="email"  class="email-sale" placeholder="Введіть ваш email">
+                            <input type="submit" name="submit-search" class=" submit submit-search" value="Відправити">
+                        </div>
+                    </form>
+                </article>
+            </section>
+        </main>
         <footer class="footer"></footer>
     </div>
 </body>
